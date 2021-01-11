@@ -1,0 +1,1421 @@
+		 /**************** General (main) Style Beginn ****************/
+			
+			html {
+				
+			}
+
+			body{
+				font-family:Arial,Helvetica,sans-serif;
+				font-size:13px;
+				margin:0px;
+			}
+			.MSKclear{
+				clear:both;
+			}
+			
+			.ms-core-defaultFont
+			{
+				font-weight:normal;
+				text-decoration:none;
+				white-space:normal;
+				word-break:normal;
+				line-height:normal;
+			}
+			/*primary Colors*/
+			.MSKCD_PMS485_red_fg{
+				color:#FF0000;
+			}
+			.MSKCD_PMS485_red_bg{
+				background-color: #e32020;
+			}
+			.MSKCD_RICHBLACK_fg{
+				color: #0D0105;
+			}
+			.MSKCD_RICHBLACK_bg{
+				background-color: #0D0105;
+			}
+			.MSKCD_WHITE_fg{
+				color: #FFFFFF;
+			}
+			.MSKCD_WHITE_bg{
+				background-color: #FFFFFF;
+			}
+			.MSKCD_COOLGREY8_fg{
+				color: #8C8C8C;
+			}
+			.MSKCD_COOLGREY8_bg{
+				background-color: #8C8C8C;
+			}
+			.MSKCD_BODYCOPY_fg{
+				color: #8C8C8C;
+			}
+			.MSKCD_BODYCOPY_bg{
+				background-color: 8C8C8C;
+			}
+			/*secondary Colors*/
+			.MSKCD_PMS109_yellow_fg{
+				color: #FFD100;
+			
+			}
+			.MSKCD_PMS109_yellow_bg{
+				background-color: #FFD100;
+			}
+			.MSKCD_PMS144_orange_fg{
+				color: #ED8B00;
+			
+			}
+			.MSKCD_PMS144_orange_bg{
+				background-color: #ED8B00;
+			}
+			.MSKCD_PMS7459_blue_fg{
+				color: #4297B5;
+			}
+			.MSKCD_PMS7459_blue_bg{
+				background-color: #4297B5;
+			}
+			.MSKCD_PMS7583_green_fg{
+				color: #B7BF10;
+			}
+			.MSKCD_PMS7583_green_bg{
+				background-color: #B7BF10;
+			}
+			.MSKCD_PMS451_olive_fg{
+				color: #9B945F;
+			}
+			.MSKCD_PMS451_olive_bg{
+				background-color: #9B945F;
+			}
+			/**** sec. Colors END*/
+			.MSK_workspace{
+				overflow:hidden;
+				position:relative;
+				background: #999999;
+				border-top: 1px solid #9c3431;
+				-ms-filter: "progid:DXImageTransform.Microsoft.gradient(enabled=false)"
+			}
+			.MSK_bodyContainer {
+			  background: none repeat scroll 0 0 white;
+			  min-height: 90%;
+			  padding-bottom:35px;
+
+			  margin: auto;
+			  padding-bottom: 0 !important;
+			  width: 1002px;
+			}
+			.MSK_subscribe {
+			  background: url("/global_includes/styles/newSP/i/background_subscribe.jpg") repeat;
+			  height: 19px;
+			  margin-top: 2px;
+			  padding-top:1px;
+			 
+			}
+			.MSK_subscribe .readmore{
+				float:right;
+				margin-right:5px;
+				padding-top:2px;
+			}	
+			.MSK_subscribe .readmore a, .readmore a:visited, .readmore a:active {
+			  color: #8C8C8C;
+			  font-family: Arial,Helvetica,sans-serif;
+			  font-size: 14px;
+			  line-height: 16px; 
+			  text-decoration: none;
+			}
+		/**************** General (main) Style END ****************/
+		/**************** Footer Style BEGIN **************** */
+			.MSK_footer_line{
+			}
+			.MSK_footer_line .MSK_footer {
+				background-color: White;
+				height: 80px;
+				width: 1002px;
+			}
+			.MSK_footer_line .MSK_alt_footer {
+				background-color: White;
+				width: 1002px;
+				min-height: 80px;				
+			}			
+			.MSK_footer_line  .enviromnen_contact_person_text_wrapper {
+			  float: left;
+			  height: 32px;
+			  padding-left: 5px;
+			  padding-top: 25px;
+			  text-align: left;
+			  width: 500px;
+			}
+			.MSK_footer_line  .enviromnen_contact_person {
+			  float: left;
+			  height: 32px;
+			  padding-left: 25px;
+			  padding-top: 25px;
+			  text-align: left;
+			  width: 32px;
+			}
+			.MSK_footer_line .contact_magna_logo {
+			  float: right;
+			  height: 26px;
+			  padding-right: 25px;
+			  padding-top: 25px;
+			  text-align: left;
+			  width: 148px;
+			}
+			.MSK_footer_line .enviromnen_contact_person_info a:link,.enviromnen_contact_person_info a:visited,.enviromnen_contact_person_info a:hover {
+			  color: Gray !important;
+			  text-decoration: none;
+			}
+		/**************** Footer Style END **************** */
+		/**************** World-Time-Zone CLOCK Style Beginn ****************/
+			.MSK_clocks_n_stocks_row{
+				height:219px;
+			}
+				.MSK_clocks_n_stocks_row .MSKclocks_wrapper_row_CLOCKS_ONLY {
+					 height: 192px;
+					 padding: 14px 0;
+					 width: auto !important;
+					 min-width: 685px;
+					 background: url("/global_includes/styles/newSP/i/clocks_bg.png") repeat-x;
+					 float:left;
+					 
+				 }
+				.MSK_clocks_n_stocks_row .MSKclock_labels {
+					background: url("/global_includes/styles/newSP/i/clocks_title_bg.png") repeat-x;
+					color: #FFFFFF;
+					font-family: Arial,Helvetica,sans-serif;
+					font-size: 16px;
+					font-weight: bold;
+					height: 30px;
+					padding-left: 0;
+					padding-top: 0;
+					vertical-align: middle;
+					width: auto !important;
+					cursor: pointer;
+				}
+				.MSK_clocks_n_stocks_row .MSKclock_labels_wraper {
+					padding: 0 10px;
+				}
+				.MSK_clocks_n_stocks_row .MSKclock_labels > #clock_lables_left {
+				  background: url("/global_includes/styles/newSP/i/clock_title_left.png") repeat-x scroll 0 -1px rgba(0, 0, 0, 0);
+				  height: 32px;
+				  min-width: 0;
+				  padding-bottom: 0;
+				  padding-left: 0;
+				  padding-right: 0;
+				  width: 7px;
+				  margin: 0;
+				}
+				.MSK_clocks_n_stocks_row .MSKclock_labels > #clock_lables_right {
+				  background: url("/global_includes/styles/newSP/i/clock_title_right.png") repeat-x scroll 0 -1px rgba(0, 0, 0, 0);
+				  float: right;
+				  height: 32px;
+				  min-width: 0;
+				  padding: 0 !important;
+				  width: 10px;
+				  margin: 0;
+				}
+				.MSK_clocks_n_stocks_row .MSKclock_labels_first {
+					margin-left: 23px !important;
+				}
+				.MSK_clocks_n_stocks_row .MSKclock_labels_last {
+					margin-right: 0 !important;
+				}
+				.MSK_clocks_n_stocks_row .MSKclock_labels > div {
+					float: left;
+					width: 100px;
+					padding: 0;
+					padding-top: 5px;
+					text-align: center;
+					margin: 0 27px;
+					white-space: nowrap;
+					
+				}
+				.MSK_clocks_n_stocks_row .MSKclock_times {
+					padding-left: 12px;
+					font-size:16px;
+				}
+				.MSK_clocks_n_stocks_row .MSKclock_times > div {
+					float: left;
+					width: 100px;
+					margin: 0 27px;
+					text-align: center;
+					padding: 0;
+					color: #ffffff;
+					font-family:"Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+				}
+				.MSK_clocks_n_stocks_row .MSKclocks {
+					padding-top: 20px;
+					padding-left: 14px;
+					padding-right: 14px;
+					text-align: left !important;
+					width: auto !important;
+				}
+				.MSK_clocks_n_stocks_row .MSKclocks > canvas {
+					margin: 0 25px !important;
+					display: inline-block;
+				}
+
+
+				
+				
+
+
+		
+		/* **************** World-Time-Zone CLOCK Style END *****************/
+		 /* **************** MSKInfoBox Style BEGIN*****************/
+			.MSKinfobox, .MSKinfobox a {
+				width:308px;
+				height:216px;
+				border:none;
+				display:block;
+				text-align:right;
+			}
+			.MSKinfobox :hover  {
+				/* opacity:0.8; */
+			}
+
+		 /* **************** MSKInfoBox Style END*****************/
+		 /* **************** Slider (esra) Style BEGIN*****************/
+			
+			.esraSliderWrapper {
+				width: 1002px;
+				height: 289px;
+				margin-bottom:10px;
+			}
+			.esraSliderWrapper .sliderFrame {
+				position: relative;
+				width: 1002px;
+				margin: 0 auto; /*center-aligned*/
+			}
+
+			.esraSliderWrapper .esraSlider, .esraSlider div.sliderInner {
+				width: 1002px;
+			}
+			.esraSliderWrapper .sliderImage{ /* aka SpotImage */
+				width: 1002px;
+			}
+
+			/* image wrapper */
+			.esraSliderWrapper .esraSlider a.imgLink, .esraSlider div.video {
+				z-index: 2;
+				position: absolute;
+				top: 0px;
+				left: 0px;
+				border: 0;
+				padding: 0;
+				margin: 0;
+				width: 1002px;
+				height: 289px;
+			}
+
+			.esraSliderWrapper .esraSlider .video {
+				background: transparent url('/global_includes/styles/newSP/i/video.png') no-repeat 50% 50%;
+			}
+
+			/* Caption styles */
+			.esraSliderWrapper .esraSlider div.mc-caption-bg, .esraSlider div.mc-caption-bg2 {
+				position: absolute;
+				width: 100%;
+				height: auto;
+				padding: 10px 0; /* 10px will increase the height.*/
+				left: 0px; /*if the caption needs to be aligned from right, specify by right instead of left. i.e. right:20px;*/
+				bottom: 0px; /*if the caption needs to be aligned from top, specify by top instead of bottom. i.e. top:150px;*/
+				z-index: 3;
+				overflow: hidden;
+				font-size: 0;
+			}
+
+			.esraSliderWrapper .esraSlider div.mc-caption-bg {
+				/* NOTE: Its opacity is to be set through the sliderOptions.captionOpacity setting in the js-image-slider.js file.*/
+				background: Black; /* or any other colors such as White, or: background:none; */
+			}
+
+			.esraSliderWrapper .esraSlider div.mc-caption-bg2 {
+				background: none;
+			}
+
+			.esraSliderWrapper .esraSlider div.mc-caption {
+				font: bold 14px/20px Arial;
+				color: #EEE;
+				z-index: 4;
+				text-align: center;
+				background: none;
+			}
+
+			.esraSliderWrapper .esraSlider div.mc-caption a {
+				color: #FB0;
+			}
+
+			.esraSliderWrapper .esraSlider div.mc-caption a:hover {
+				color: #DA0;
+			}
+
+
+			/* ------ built-in navigation bullets wrapper ------*/
+			/* Note: check themes\2\js-image-slider.css to see how to hide nav bullets */
+			.esraSliderWrapper .esraSlider div.navBulletsWrapper {
+				top: 265px; /* Its position is relative to the #slider  this is the vertical positioning for the bullets*/
+				text-align: left;
+				background: none;
+				position: relative;
+				z-index: 5;
+				margin-left: 10px;
+			}
+
+			/* each bullet */
+			.esraSliderWrapper .esraSlider div.navBulletsWrapper div {
+				width: 11px;
+				height: 11px;
+				font-size: 0;
+				color: White; /*hide the index number in the bullet element*/
+				background: transparent url('/global_includes/styles/newSP/i/bullet2.png') no-repeat 0 0;
+				display: inline-block;
+				*display: inline;
+				zoom: 1;
+				overflow: hidden;
+				cursor: pointer;
+				margin: 0 4px; /* set distance between each bullet*/
+			}
+
+			.esraSliderWrapper .esraSlider div.navBulletsWrapper div.active {
+				background-position: 0 -11px;
+			}
+
+
+			/* --------- Others ------- */
+
+			.esraSliderWrapper .esraSlider div.loading {
+				width: 100%;
+				height: 100%;
+				background: transparent url('/global_includes/styles/newSP/i/loading.gif') no-repeat 50% 50%;
+				filter: alpha(opacity=60);
+				opacity: 0.6;
+				position: absolute;
+				left: 0;
+				top: 0;
+				z-index: 9;
+			}
+
+			.esraSliderWrapper .esraSlider img, .esraSlider > b, .esraSlider a > b {
+				position: absolute;
+				border: none;
+			}
+
+			.esraSliderWrapper .esraSlider div.sliderInner {
+				overflow: hidden;
+				-webkit-transform: rotate(0.000001deg); /* fixed the Chrome not crop border-radius bug*/
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+
+			.esraSliderWrapper .esraSlider > a, .esraSlider video, .esraSlider audio {
+				display: none;
+			}		 
+		 
+
+	  /* **************** Slider (spot) Style END*****************/
+		
+		 /* **************** TabbedPanel (carousel) Style BEGIN*****************/
+						
+			
+			/* SpryTabbedPanels.css - version 0.6 - Spry Pre-Release 1.6.1 */
+
+			/* Copyright (c) 2006. Adobe Systems Incorporated. All rights reserved. */
+
+			/* Horizontal Tabbed Panels
+			 *
+			 * The default style for a TabbedPanels widget places all tab buttons
+			 * (left aligned) above the content panel.
+			 */
+
+			/* This is the selector for the main TabbedPanels container. For our
+			 * default style, this container does not contribute anything visually,
+			 * but it is floated left to make sure that any floating or clearing done
+			 * with any of its child elements are contained completely within the
+			 * TabbedPanels container, to minimize any impact or undesireable
+			 * interaction with other floated elements on the page that may be used
+			 * for layout.
+			 *
+			 * If you want to constrain the width of the TabbedPanels widget, set a
+			 * width on the TabbedPanels container. By default, the TabbedPanels widget
+			 * expands horizontally to fill up available space.
+			 *
+			 * The name of the class ("TabbedPanels") used in this selector is not
+			 * necessary to make the widget function. You can use any class name you
+			 * want to style the TabbedPanels container.
+			 */
+			.MSK_tabLine .TabbedPanels {
+				overflow: hidden;
+				margin: 0px;
+				padding: 0px;
+				clear: none;
+				width: 661px; /* IE Hack to force proper layout when preceded by a paragraph. (hasLayout Bug)*/
+				height: 216px;
+				/*background-color: #EAEAEA !important;*/
+			}
+
+			/* This is the selector for the TabGroup. The TabGroup container houses
+			 * all of the tab buttons for each tabbed panel in the widget. This container
+			 * does not contribute anything visually to the look of the widget for our
+			 * default style.
+			 *
+			 * The name of the class ("TabbedPanelsTabGroup") used in this selector is not
+			 * necessary to make the widget function. You can use any class name you
+			 * want to style the TabGroup container.
+			 */
+			.MSK_tabLine .TabbedPanelsTabGroup {
+				margin: 0px;
+				padding: 0px;
+			}
+
+			/* This is the selector for the TabbedPanelsTab. This container houses
+			 * the title for the panel. This is also the tab "button" that the user clicks
+			 * on to activate the corresponding content panel so that it appears on top
+			 * of the other tabbed panels contained in the widget.
+			 *
+			 * For our default style, each tab is positioned relatively 1 pixel down from
+			 * where it wold normally render. This allows each tab to overlap the content
+			 * panel that renders below it. Each tab is rendered with a 1 pixel bottom
+			 * border that has a color that matches the top border of the current content
+			 * panel. This gives the appearance that the tab is being drawn behind the
+			 * content panel.
+			 *
+			 * The name of the class ("TabbedPanelsTab") used in this selector is not
+			 * necessary to make the widget function. You can use any class name you want
+			 * to style this tab container.
+			 */
+			.MSK_tabLine .TabbedPanelsTab {
+				position: relative;
+				top: 1px;
+				float: left;
+				padding: 6px 10px 2px;
+				margin: 0;
+			   /* font-family: Arial, Helvetica, sans-serif;*/
+				font-weight: bold;
+				font-size: 16px;
+				background-color: #D7d7d7;
+				list-style: none;
+				border-left: solid 1px #CCC;
+				border-bottom: solid 1px #999;
+				border-top: solid 1px #999;
+				border-right: solid 1px #999;
+				-moz-user-select: none;
+				-khtml-user-select: none;
+				cursor: pointer;
+				height: 35px;
+				width: 207px;
+				text-align: center;
+				vertical-align: middle;
+				color: #666666;
+				background: url(/global_includes/styles/newSP/i/tab_unselected_background.jpg);
+			}
+
+			.MSK_tabLine .TabbedPanelsTabOnePixelMoreToTheRight {
+				position: relative;
+				top: 1px;
+				float: left;
+				padding: 4px 10px;
+				margin: 0px 1px 0px 0px;
+				/*font-family: Arial, Helvetica, sans-serif;*/
+				font-weight: bold;
+				font-size: 16px;
+				background-color: #D7d7d7;
+				list-style: none;
+				border-left: solid 1px #CCC;
+				border-bottom: solid 1px #999;
+				border-top: solid 1px #999;
+				border-right: solid 1px #999;
+				-moz-user-select: none;
+				-khtml-user-select: none;
+				cursor: pointer;
+				height: 25px;
+				width: 199px;
+				text-align: center;
+				vertical-align: middle;
+				color: #666666;
+				background: url(/global_includes/styles/newSP/i/tab_unselected_background.jpg);
+			}
+
+			/* This selector is an example of how to change the appearnce of a tab button
+			 * container as the mouse enters it. The class "TabbedPanelsTabHover" is
+			 * programatically added and removed from the tab element as the mouse enters
+			 * and exits the container.
+			 */
+			.MSK_tabLine .TabbedPanelsTabHover {
+				background-color: #CCC;
+			}
+
+			/* This selector is an example of how to change the appearance of a tab button
+			 * container after the user has clicked on it to activate a content panel.
+			 * The class "TabbedPanelsTabSelected" is programatically added and removed
+			 * from the tab element as the user clicks on the tab button containers in
+			 * the widget.
+			 *
+			 * As mentioned above, for our default style, tab buttons are positioned
+			 * 1 pixel down from where it would normally render. When the tab button is
+			 * selected, we change its bottom border to match the background color of the
+			 * content panel so that it looks like the tab is part of the content panel.
+			 */
+			.MSK_tabLine .TabbedPanelsTabSelected {
+				background: url("/global_includes/styles/newSP/i/tab_selected_background.jpg");
+				border-bottom: 1px solid #EEE;
+				/*color: #8C8C8C;*/
+			}
+
+			/* This selector is an example of how to make a link inside of a tab button
+			 * look like normal text. Users may want to use links inside of a tab button
+			 * so that when it gets focus, the text *inside* the tab button gets a focus
+			 * ring around it, instead of the focus ring around the entire tab.
+			 */
+			.MSK_tabLine .TabbedPanelsTab a {
+				color: #666666;
+				text-decoration: none;
+			}
+
+			/* This is the selector for the ContentGroup. The ContentGroup container houses
+			 * all of the content panels for each tabbed panel in the widget. For our
+			 * default style, this container provides the background color and borders that
+			 * surround the content.
+			 *
+			 * The name of the class ("TabbedPanelsContentGroup") used in this selector is
+			 * not necessary to make the widget function. You can use any class name you
+			 * want to style the ContentGroup container.
+			 */
+			.MSK_tabLine .TabbedPanelsContentGroup {
+				clear: both;
+				border-left: solid 1px #CCC;
+				border-bottom: solid 1px #999;
+				border-top: solid 1px #999;
+				border-right: solid 1px #999;
+				background-color: #eaeaea;
+				font-size: 16px;
+				/*font-family: Arial, Helvetica, sans-serif;*/
+			}
+
+			/* This is the selector for the Content panel. The Content panel holds the
+			 * content for a single tabbed panel. For our default style, this container
+			 * provides some padding, so that the content is not pushed up against the
+			 * widget borders.
+			 *
+			 * The name of the class ("TabbedPanelsContent") used in this selector is
+			 * not necessary to make the widget function. You can use any class name you
+			 * want to style the Content container.
+			 */
+
+			.MSK_tabLine .TabbedPanelsContent {
+				overflow: hidden;
+				padding: 0px;
+			   /* font: Arial;*/
+				height: 179px;
+				text-align: left;
+				display:none;
+			}
+			/* This selector is an example of how to change the appearnce of the currently
+			 * active container panel. The class "TabbedPanelsContentVisible" is
+			 * programatically added and removed from the content element as the panel
+			 * is activated/deactivated.
+			 */
+			.MSK_tabLine .TabbedPanelsContentVisible {
+				display:block;
+			}
+
+
+
+
+
+			.MSK_tabLine .TabbedPanelsContent.TabbedPanelsContentVisible td {
+				padding: 0;
+			}
+
+			/***************************************** TABBED PANNEL END **************************************************************************************************/
+			 
+			/***************************************** CAROUSEL BEGINNING **************************************************************************************************/
+
+
+			.MSK_tabLine .carousel_text > div {
+				display: inline !important;
+			}
+
+
+			.MSK_tabLine .carousel-component {
+				position: relative;
+				overflow: hidden; /* causes the clipping */
+				display: none; /*component turns it on when first item is rendered */
+			}
+
+			.MSK_tabLine .carousel-component ul.carousel-list {
+				width: 10000000px;
+				position: relative;
+				z-index: 1;
+			}
+
+			.MSK_tabLine .carousel-component .carousel-list li {
+				float: left;
+				list-style: none;
+				overflow: hidden;
+
+				text-align: left;
+				margin: 2px 6px;
+				padding: 0px;
+				/*font-family: Arial, Helvetica, sans-serif;*/
+				font-size: 12px;
+				color: #666;
+				width: 191px; /* img width is 170 px  a.border-left (1) + a.border-right(1) + 
+					   img.border-left (1) + img.border-right (1)*/
+				height: 141px; /* image + row of text (87) + border-top (1) + border-bottom(1) + margin-bottom(4) */
+				/*    margin-left: auto;*/ /* for testing IE auto issue */
+			}
+
+
+
+			.MSK_tabLine .carousel-component .carousel-clip-region {
+				overflow: hidden; /* Secret to the clipping */
+				margin: 0px auto;
+				position: relative;
+
+			}
+
+				/* For vertical carousel, not set, width defaults to auto */
+				/* Note if you explicitly set width to auto, this might cause */
+				/* problems with Safari... as in up/down button not working in some examples. */
+
+				/**
+					* ==============================================================================
+					* Safe to override. It is safe to override background, padding, margin, color,
+					* text alignment, fonts, etc. Define a separate CSS file and override your style
+					* preferences.
+					**/
+
+			.MSK_tabLine .carousel-component {
+				padding: 0px;
+				-moz-border-radius: 6px;
+				color: #618cbe;
+				padding: 10px 0px 2px;
+				margin: 0;
+			}
+
+			.MSK_tabLine .carousel-component ul.carousel-list {
+				margin: 0px;
+				padding: 0px;
+				line-height: 0px;
+			}
+
+
+
+			  
+
+			.MSK_tabLine #mycarousel * {
+				line-height: 1.22em;
+			}
+			.MSK_tabLine #mycarousel2 * {
+				line-height: 1.22em;
+			}
+			.MSK_tabLine #mycarousel3 * {
+				line-height: 1.22em;
+			}
+
+
+
+			   
+			   
+			/* main style sheet needs to be overriden as the main CSS file is javascript dependent*/
+			.MSK_tabLine .carousel-component {
+				
+			}
+			/*
+			.MSK_tabLine .carousel-component .carousel-list li {
+				
+				
+			}
+			*/
+
+			.MSK_tabLine .carousel-component .carousel-list li a {
+				display: block;
+				border: 0;
+				outline: none;
+				margin-bottom: 8px;
+			}
+
+			.MSK_tabLine .carousel-component .carousel-list li a:hover {
+				border: 0px solid #aaaaaa;
+			}
+
+			.MSK_tabLine .carousel-component .carousel-list li img {
+				border: 1px solid #333;
+				display: block;
+			}
+
+			.MSK_tabLine .carousel-component .carousel-prev {
+				position: absolute;
+				top: 60px;
+				z-index: 3;
+				cursor: pointer;
+				left: 0;
+				width:20px;
+				height:35px;
+			}
+
+			.MSK_tabLine .carousel-component .carousel-next {
+				position: absolute;
+				top: 60px;
+				z-index: 3;
+				cursor: pointer;
+				right: 0;
+				width:20px;
+				height:35px;
+			}
+			.MSK_tabLine .carousel-prev > img{
+				width:20px;
+				height:35px;
+
+			}
+			.MSK_tabLine .carousel-next > img{
+				width:20px;
+				height:35px;
+
+			}
+			.MSK_tabLine .carousel_title {
+				/*font-family: Arial, Helvetica, sans-serif;*/
+				font-size: 12px;
+				font-weight: bold;
+				color: #666666;
+				margin:2px 0 0 2px;
+			}
+
+			.MSK_tabLine .carousel_title a {
+				/*font-family: Arial, Helvetica, sans-serif;*/
+				font-size: 12px;
+				font-weight: bold;
+				color: #000000;
+				text-decoration: none;
+			}
+
+			.MSK_tabLine .carousel_text {
+				/*font-family: Arial, Helvetica, sans-serif;*/
+				font-size: 11px;
+				color: #000000;
+				margin:2px 0 0 2px;
+			}
+			
+			
+			 /***************************************** CAROUSEL END **************************************************************************************************/
+
+
+			
+		 /***************** TabbedPanel (carousel) Style END*****************/
+		
+		 /* **************** MSKStocks Style BEGIN*****************/
+			
+			.MSK_clocks_n_stocks_row .MSKclocks_wrapper_row_STOCK_ONLY {
+			/*		background: url("../images/stocks_row_background.jpg") repeat scroll 0 0 rgba(0, 0, 0, 0);*/
+					background: url("/global_includes/styles/newSP/i/stocks_row_background.jpg") repeat ;
+					
+					
+					text-align: left;
+					width: 317px;
+					float:left;
+					margin-bottom: 0;
+					margin-top: 0;
+					padding-bottom: 0px;
+					padding-top: 14px;
+				}
+			.MSK_clocks_n_stocks_row .stocks{
+				margin-left:30px;
+				width: 257px;
+				height:176px;
+			}
+			.MSK_clocks_n_stocks_row #stock-head a:hover {
+					font-family: arial;
+					font-size: 22px;
+					color: #ffffff;
+					text-decoration: underline;
+				}
+				.MSK_clocks_n_stocks_row #stock-head a {
+					color: #ffffff;
+					font-family: arial;
+					font-size: 22px;
+					text-decoration: none;
+				}
+				.MSK_clocks_n_stocks_row #stock {
+					width: 260px;
+					height: 165px;
+					float: right;
+					
+					margin-right: 25px;
+				}
+
+				.MSK_clocks_n_stocks_row #stock-head {
+					font-family: arial;
+					font-size: 22px;
+					color: #FFFFFF;
+					
+					margin-bottom: 5px;
+				}
+				.MSK_clocks_n_stocks_row .MSKstockline_verydark{
+					background-color: #474d4e;
+				
+				}
+				.MSK_clocks_n_stocks_row .MSKstockline_dark{
+					background-color: #6d7275;
+				}
+				.MSK_clocks_n_stocks_row .MSKstockline_light{
+					background-color: #84898a;
+				}
+				.MSK_clocks_n_stocks_row .MSKstockline{
+					width:auto;
+					height:24px;
+					font-family: arial;
+					font-size:13px;
+					color: #ffffff;
+				
+				}
+				.MSK_clocks_n_stocks_row .MSKstockline_text{
+					 
+					width: 60px;
+					padding-top: 4px;
+					padding-left: 5px;
+					padding-right: 5px;
+					float: left;
+					white-space: nowrap;
+					box-sizing:border-box;
+				}
+				.MSK_clocks_n_stocks_row .MSKstockline_spaced{
+					padding-left:43px;
+					width: 98px;	
+					box-sizing: border-box;
+				}
+				.MSK_clocks_n_stocks_row  .stockButton a {
+				  color: #000000;
+				  display: block;
+				  text-decoration: none;
+				  width: 166px;
+				}
+		 /* **************** MSKStocks Style END*****************/
+		
+		
+		
+		  /* *************** ColaborationBox Style BEGIN **************/ 
+			.MSK_applink .mg_functions_colaboration_main 
+			{
+				 
+				width:667px;
+				height:213px;
+				/*background:url(../images/collaboration-bg.png) no-repeat; */
+				
+
+			 }
+			 
+			 
+			 .MSK_applink .mg_functions_colaboration_title {
+				
+				/*background: url("../images/quick_links_title_shadow_no_text_blue.png") ;*/
+				/*background-color: #FF0000;
+				color: #FFFFFF;
+				*/
+				font-size: 17px;
+				font-style: normal;
+				font-weight: bold;
+				height: 32px;
+				left: 11px;
+				float:left;
+				text-align: left;
+				width: auto;
+				display: inline-block;
+				padding-left: 17px;
+				padding-right: 17px;
+				margin-bottom:20px;
+				margin-left:15px;
+			}
+			
+			 .MSK_applink .mg_functions_colaboration_title_spacer {
+				 width:100%;
+				 height:5px;
+			 }
+			 
+			.MSK_applink .mg_functions_colaboration_links {
+				width: 273px; 
+				padding-left: 16px;
+				padding-bottom: 16px;
+				text-align:left;
+				display: inline;
+				float: left;
+				position: relative;
+				line-height: 15px;
+			}
+
+			.MSK_applink .mg_functions_colaboration_links a:link, .MSK_applink .mg_functions_colaboration_links a:active, .MSK_applink .mg_functions_colaboration_links a:visited {
+				background:url("/global_includes/styles/newSP/i/chevron-grey.png") no-repeat;
+				background-position:0 3px;
+				text-decoration:none;
+				color:Black !important;
+				text-align:left;
+				/*font-weight:bold;*/
+				display: block;
+				padding-left: 1em;
+			}
+			.MSK_applink .mg_functions_colaboration_links a:hover {
+				background:url("/global_includes/styles/newSP/i/chevron-red.png") no-repeat;
+				background-position:0 3px;
+				color:rgb(31,78,124);
+			}
+
+			.MSK_applink .mg_functions_colaboration_links_left_side_container 
+			{
+				float:left;
+				 padding-left:27px;
+				 
+			}
+
+			.MSK_applink .mg_functions_colaboration_links_right_side_container {
+				float:left;
+				padding-right:0;
+				 
+			}
+
+
+			.MSK_applink .mg_page_table{
+			 border:0px;
+			 padding:0px 0px 0px 0px;    
+			 
+			 
+			}
+			
+			
+			.MSK_applink #trending-bg {
+				background: url("/global_includes/styles/newSP/i/trending_now_background_blue.png") no-repeat;
+				display: none;
+			}
+			
+			.MSK_applink #trending {
+			   
+				width: 303px;
+				font-family: arial;
+				font-size: 11px;
+				text-decoration: none;
+				color: #828282;
+				height:197px;
+				position: relative;
+				
+				background: url("/global_includes/styles/newSP/i/trending_now_background_350x179RED.png") no-repeat ;
+				padding-left: 20px;
+				padding-top: 0px;
+				padding-bottom:10px;
+				text-align: left;
+			}
+			.MSK_applink #trending > ul {
+			  padding-left: 25px;
+			  margin: 9px 0;
+			  
+			}
+			.MSK_applink #trending li {
+				list-style: none;
+				color: #828282;
+				padding-top: 4px;
+				vertical-align: top;
+
+			}
+
+			.MSK_applink #trending a {
+				text-decoration: none;
+				color: #8c8c8c;
+				vertical-align: top;
+				padding-left:2em;
+				background: url("/global_includes/styles/newSP/i/trending-icon-red.png") no-repeat 0 2px;
+				display:block;
+				height:16px;
+				padding-top:2px;
+			}
+			.MSK_applink #trending a:hover {
+				text-decoration: none;
+				color: #FF0000;
+				vertical-align: top;
+				
+			}
+			
+			.MSK_applink  {
+				background: url("/global_includes/styles/newSP/i/collaboration-bg_1002x213.png") no-repeat ;
+				display: block;
+				height: 213px;
+			  
+			}
+			.MSK_applink #trending #headline-trending {
+				position:absolute;
+				top: 17px;
+				left: 45px;
+				color: white;
+				font-size: 18px;
+				line-height: 18px;
+				font-weight: bold;
+			}				
+						
+		  /* *************** ColaborationBox Style END **************/ 
+		
+		
+	
+		/* *************** EmployeeBox Style BEGIN **************/ 
+			.MSK_employee_wrapper {
+			  display: block;
+			  width: 1002px;
+			 /* margin-left:10px;
+			  margin-right:10px;*/
+			}
+			.MSK_employee_wrapper .MSKemployeeBOX {
+			  display: block;
+			  float: left;
+			  width: 486px;
+			}
+			.MSK_employee_wrapper .MSKemployeeFB_img {
+			  float: left;
+			  margin-top: 12px;
+			  border: none;
+			}
+
+			.MSK_employee_wrapper .MSKemployeeFB_text {
+			  /*background-color: #B7BF10;*/
+			  border: 1px solid #cecfce;
+			  float: left;
+			  height: 182px;
+			  margin-top: 12px;
+			  width: 303px;
+			}
+			.MSK_employee_wrapper .MSKemployeeFB_text > h3{
+				font-size:18px;
+				font-weight:500;
+			}
+			.MSK_employee_wrapper .MSKemployeeSpacer {
+			  width: 10px;
+			  float: left;
+			}
+			.MSK_employee_wrapper .MSKemployeeFB_text_title {
+			  color: White;
+			  
+			  font-size: 18px;
+			  font-weight: 600;
+			  height: 40px;
+			  margin-left: 20px;
+			  margin-top: 20px;
+			  text-decoration: none;
+			  width: 200px;
+			}
+			.MSK_employee_wrapper .MSKemployeeFB_text_title  a:link,
+			.MSKemployeeFB_text_title  a:hover,
+			.MSKemployeeFB_text_title  a:visited{
+				color: White;
+				text-decoration: none;
+			}
+			
+			.MSK_employee_wrapper .MSKemployeeFB_text_content {
+				  border: 0 solid black;
+				  color: White;
+				  font-size: 14px;
+				  line-height:20px;
+				  height: 131px;
+				  margin: 24px 20px 0 23px;
+				  overflow: hidden;
+				  text-align: left;
+				  /*width: 275px;*/
+			}
+			
+			.MSK_employee_wrapper .MSKemployeeFB_text_content  a:link,
+			.MSKemployeeFB_text_content  a:hover,
+			.MSKemployeeFB_text_content  a:visited{
+				color: White;
+				text-decoration: none;
+				display:block;
+				
+			}
+			.MSK_employee_wrapper .MSKemployeeFB_text_content > h3{
+				font-size:18px;
+				margin:0px;
+				font-weight:500;
+				line-height:22px;
+			}
+			.MSK_employee_wrapper .MSKemployeeFB_text_content > p{
+			    margin: 1em 0 1em 0;
+				font-size:14px;
+			}
+			.MSK_employee_wrapper .MSKemployeeFB_text_anker{
+				display:block;
+				background: url("/global_includes/styles/newSP/i/chevron-white.png") no-repeat scroll 0 3px rgba(0, 0, 0, 0);
+				line-height: 15px;
+				padding-left: 13px;
+				margin-left: 23px;
+				float:left;
+			}
+			.MSKemployeeFB_text_anker  div{
+				float:left;
+			}
+			.MSK_employee_wrapper a:hover,.MSK_employee_wrapper a:link,.MSK_employee_wrapper a:visited{
+				color:#FFF;
+				text-decoration:none;
+				
+			}
+		 /* *************** EmployeeBox Style END **************/ 
+
+
+/**************************************
+*****  News Registration
+***************************************/
+
+div.kcomResponseError {
+color: #FF0000; 
+font-size: 12px; 
+font-family: Arial, Helvetica, sans-serif; 
+font-weight: bold; 
+border: 1px solid #FF0000; 
+text-align: center; 
+padding-top: 3px; 
+margin: 0 11px 15px 11px; 
+width: 980px; 
+height: 20px
+}
+div.kcomResponse {
+color: #A5AEB5; 
+font-size: 12px; 
+font-family: Arial, Helvetica, sans-serif; 
+font-weight: bold; 
+border: 1px solid #A5AEB5; 
+text-align: center; 
+padding-top: 3px; 
+margin: 0 11px 15px 11px; 
+width: 980px; 
+height: 20px
+}
+
+/**************************************
+*****  Topics
+***************************************/
+
+div#topicsContainer {
+width: 100%;
+}
+h1.mainTopics {
+margin: 25px 0 9px 0  !important;
+}
+div.topicSmall {
+height: 135px;
+width: 182px;
+margin: 6px 0 11px 15px;
+float: left;
+}
+div#firstTopic {
+margin: 6px 0 11px 0;
+}
+
+div.topicSmall a {
+height: 135px;
+width: 182px;
+display: block;
+background-image:url("/global_includes/styles/mi/topicSmallPassive.png");
+text-decoration: none;
+line-height: 18px;
+}
+div.topicSmall a:hover {
+background-image:url("/global_includes/styles/mi/topicSmallActive.png");
+}
+
+.topicHeadline {
+margin: 5px 0 0 15px;
+height:18px;
+overflow:hidden;
+font-size: 14px;
+font-weight: bold;
+color: #000000;
+}
+div#topicsContainer a:hover span.topicHeadline, div#topics2Container a:hover span.topicHeadline {
+color: #FF0000;
+}
+div#topicsContainer img, div#topics2Container img {
+margin: 0 0 7px 0;
+border:0;
+outline:none;
+}
+div#topicsContainer a, div#topics2Container a {
+text-decoration:none;
+border:0;
+outline:none;
+}
+div#topicsContainer a:hover img, div#topics2Container a:hover img {
+}
+.topicSubHeadline {
+height:18px;
+overflow:hidden;
+margin: 1px 0 0 15px;
+font-size: 11px;
+font-weight: normal;
+color: #000000;
+}
+div.topicLarge {
+height: 135px;
+width: 280px;
+margin: 6px 0 11px 16px;
+float: left;
+}
+div.topicLarge a {
+height: 135px;
+width: 280px;
+display: block;
+background-image:url("/global_includes/styles/mi/topicLargePassive.png");
+text-decoration: none;
+line-height: 18px;
+}
+div.topicLarge a:hover {
+background-image:url("/global_includes/styles/mi/topicLargeActive.png");
+}
+div.topicxLarge {
+height: 135px;
+width: 306px;
+margin: 6px 0 11px 16px;
+float: left;
+}
+div.topicxLarge a {
+height: 135px;
+width: 306px;
+display: block;
+background-image:url("/global_includes/styles/mi/topicxLargePassive.png");
+text-decoration: none;
+line-height: 18px;
+}
+div.topicxLarge a:hover {
+background-image:url("/global_includes/styles/mi/topicxLargeActive.png");
+}
+
+
+/**************************************************
+  TOPICS Fader
+  ************************************************/
+
+
+#smallTopicsContainer {
+  position: relative;
+  height: 140px;
+  width:980px;
+  margin: 10px 11px 10px 11px;
+}
+
+
+#firstTop.topicS{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 0;
+}
+
+#firstTopFader.topicS{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+}
+
+#secondTop.topicS{
+  position: absolute;
+  top: 0px;
+  left: 192px;
+  z-index: 0;
+}
+
+#secondTopFader.topicS{
+  position: absolute;
+  top: 0px;
+  left: 192px;
+  z-index: 2;
+}
+
+#thirdTop.topicS{
+  position: absolute;
+  top: 0px;
+  left: 384px;
+  z-index: 0;
+}
+
+#thirdTopFader.topicS{
+  position: absolute;
+  top: 0px;
+  left: 384px;
+  z-index: 2;
+}
+
+#firstTopLarge{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 0;
+}
+
+#firstTopLargeFader{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 2;
+}
+
+#secondTopLarge {
+  position: absolute;
+  left: 295px;
+  top: 0px;
+  z-index: 0;
+}
+
+#secondTopLargeFader {
+  position: absolute;
+  left: 295px;
+  top: 0px;
+  z-index: 2;
+}
+
+div.largeTopicClass a {
+height: 135px;
+width: 280px;
+display: block;
+background-image:url("/global_includes/styles/mi/topicLargePassive.png");
+text-decoration: none;
+line-height: 18px;
+}
+div.largeTopicClass a:hover {
+background-image:url("/global_includes/styles/mi/topicLargeActive.png");
+}
+div.xlargeTopicClass a {
+height: 135px;
+width: 306px;
+display: block;
+background-image:url("/global_includes/styles/mi/topicxLargePassive.png");
+text-decoration: none;
+line-height: 18px;
+}
+div.xlargeTopicClass a:hover {
+background-image:url("/global_includes/styles/mi/topicxLargeActive.png");
+}
+
+div.topicS a {
+height: 135px;
+width: 182px;
+display: block;
+background-image:url("/global_includes/styles/mi/topicSmallPassive.png");
+text-decoration: none;
+line-height: 18px;
+}
+div.topicS a:hover {
+background-image:url("/global_includes/styles/mi/topicSmallActive.png");
+}
+
+
+#Top1.topicS, #Top2.topicS, #Top3.topicS, #Top4.topicS, #Top5.topicS, #Top6.topicS {
+  position: absolute;
+  top: 0px;
+  z-index: 0;
+}
+#Top1Fader.topicS, #Top2Fader.topicS, #Top3Fader.topicS, #Top4Fader.topicS, #Top5Fader.topicS, #Top6Fader.topicS{
+  position: absolute;
+  top: 0px;
+  z-index: 2;
+}
+#Top1Large, #Top2Large, #Top3Large, #Top4Large {
+  position: absolute;
+  top: 0px;
+  z-index: 0;
+}
+#Top1LargeFader, #Top2LargeFader, #Top3LargeFader, #Top4LargeFader {
+  position: absolute;
+  top: 0px;
+  z-index: 2;
+}

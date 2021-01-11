@@ -1,0 +1,178 @@
+	
+	var PicGallery2data = {};
+
+    function PicGallery2initUplProgres(guid, uploadUrl){
+		
+		PicGallery2data[guid] = {};
+
+        $('.pictureGallery2Upl #uploadInput' + guid).fileupload({
+            url: uploadUrl + "/global_includes/lib/PicGallery2/index.php",
+            dataType: 'json',
+            done: function(e, data){
+                var ajaxResponse = data.result;
+				PicGallery2handleUplResponse(ajaxResponse, guid);
+            },
+            start: function(){
+                PicGallery2startUplProgres(guid);
+            },
+            stop: function(){
+                PicGallery2stopUplProgres(guid);         
+            },
+            dropZone: $('#uploadZone' + guid),
+			disableImageResize: /Android(?!.*Chrome)|Opera/ .test(window.navigator && navigator.userAgent),
+			imageMaxWidth: 1920,
+			imageMaxHeight: 1080
+        });
+
+        PicGallery2setDropZoneEffects(guid);
+    }
+	
+	function PicGallery2handleUplResponse(response, guid){
+		
+		if(response.error == true){
+			$(".pictureGallery2Upl #uploadInfo" + guid).append(response.errorMsg + "<br>");
+		}
+		else{
+			
+			$("#pictureGallery2BarInner" + guid).width(0);
+			$(".pictureGallery2Upl #fileTable" + guid + " tbody").html(response.html.htmlLine);
+			$("#pictureGallery2BarInner" + guid).html(response.html.htmlBlock);
+			
+			PicGallery2setColorbox(guid);
+		}
+	}
+	
+	function PicGallery2deleteImage(filename, guid, uploadUrl){
+		
+		$.ajax({
+			type: 'POST',
+			async: false,
+			url:  uploadUrl + "/global_includes/lib/PicGallery2/index.php",
+			dataType: 'json',
+			data: {
+				GUID: guid,
+				galleryAction: "delete",
+				filename: filename
+			},
+			success: function(data){
+				var ajaxResponse = data;
+				PicGallery2handleImageLoad(ajaxResponse, guid);
+			}
+		});
+	}
+	
+	function PicGallery2loadImages(guid, uploadUrl){
+		
+		$.ajax({
+			type: 'POST',
+			async: false,
+			url:  uploadUrl + "/global_includes/lib/PicGallery2/index.php",
+			dataType: 'json',
+			data: {
+				GUID: guid,
+				galleryAction: "load"
+			},
+			success: function(data){
+				var ajaxResponse = data;
+				PicGallery2handleImageLoad(ajaxResponse, guid);
+			}
+		});
+	}
+	
+	function PicGallery2handleImageLoad(response, guid){
+		
+		$("#pictureGallery2BarInner" + guid).width(0);
+		$(".pictureGallery2Upl #fileTable" + guid + " tbody").html(response.htmlLine);
+		$("#pictureGallery2BarInner" + guid).html(response.htmlBlock);
+		
+		PicGallery2setColorbox(guid);
+	}
+	
+	function PicGallery2setColorbox(guid){
+		
+		//$("#pictureGallery2BarInner" + guid).find("a.barImage").colorbox.remove(); 
+		$("#pictureGallery2BarInner" + guid).find("a.barImage").colorbox({
+			rel: "group" + guid,
+			title: false,
+			maxWidth: '100%',
+			maxHeight: '100%'
+		});	
+	}
+	
+	function PicGallery2setBarWidthOnLoad2(elm, guid){
+		
+		var imgWidth = $(elm).parent().outerWidth(true);
+		$("#pictureGallery2BarInner" + guid).width($("#pictureGallery2BarInner" + guid).width() + imgWidth);
+	}
+	
+	function PicGallery2setBarWidthOnLoad(guid){
+		var totalWidth = 0;
+		$("#pictureGallery2BarInner" + guid + " a.barImage img").load(function(){
+		
+			var imgWidth = $(this).parent().outerWidth(true);
+			totalWidth += imgWidth;
+//			console.log($("#pictureGallery2BarInner" + guid).width() +" -- " +$(this).attr('src') + " -- Summe: " + totalWidth);
+			$("#pictureGallery2BarInner" + guid).width($("#pictureGallery2BarInner" + guid).width() + imgWidth);
+		});
+	}
+
+    function PicGallery2setDropZoneEffects(guid){
+
+        $(document).bind('dragover', function(e){
+        
+            var dropZone = $('.pictureGallery2Upl #uploadZone' + guid);
+            timeout = window.dropZoneTimeout;
+            var found = false;
+
+            if(timeout) 
+                clearTimeout(timeout);
+
+            node = e.target;
+
+            do{
+                if (node === dropZone[0]) {found = true; break;}
+                node = node.parentNode;
+            }while (node != null);
+
+            if (found) dropZone.addClass('uploadZoneHover');
+            else dropZone.removeClass('uploadZoneHover');
+
+             window.dropZoneTimeout = setTimeout(function () {
+                window.dropZoneTimeout = null;
+                dropZone.removeClass('uploadZoneHover');
+            }, 100);
+        });
+    }
+    
+    function PicGallery2startUplProgres(guid){
+		
+		$(".pictureGallery2Upl #uploadInfo" + guid).html("");
+		$(".pictureGallery2Upl #uploadProgres" + guid).html("Datein werden hochgeladen ");
+        $(".pictureGallery2Upl #uploadInput" + guid).css("display", "none");
+	
+        PicGallery2data[guid]["uplProgresSec"] = 0;
+		PicGallery2data[guid]["uplProgresIntv"] = setInterval(PicGallery2stepUplProgres(guid), 1000);
+    }
+
+    function PicGallery2stepUplProgres(guid){
+        
+        if(PicGallery2data[guid]["uplProgresSec"] > 10){
+            $(".pictureGallery2Upl #uploadProgres" + guid).html("Datein werden hochgeladen ")
+            PicGallery2data[guid]["uplProgresSec"] = 0;
+        }
+        else $(".pictureGallery2Upl #uploadProgres" + guid).append(".");
+            
+        PicGallery2data[guid]["uplProgresSec"]++;
+    }
+
+    function PicGallery2stopUplProgres(guid){
+        
+        window.clearInterval(PicGallery2data[guid]["uplProgresIntv"]);
+        $(".pictureGallery2Upl #uploadProgres" + guid).html("");
+        $(".pictureGallery2Upl #uploadInput" + guid).css("display", "inline");
+		$('.pictureGallery2Upl #uploadZone' + guid).removeClass('uploadZoneHover');
+    }
+	
+	function PicGallery2openImage(href){
+		window.open(href);
+	}
